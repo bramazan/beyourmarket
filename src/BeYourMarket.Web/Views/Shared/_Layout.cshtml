@@ -13,6 +13,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @RenderSection("metatags", required: false)
     <link rel="icon" type="image/jpeg" href="@ImageHelper.GetCommunityImagePath("favicon")" />
 
     <title>@ViewBag.Title - @settings.Description</title>
