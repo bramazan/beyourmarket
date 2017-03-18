@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-10 22:06+03:00\n"
-"PO-Revision-Date: 2017-03-10 22:06+03:00\n"
+"POT-Creation-Date: 2017-03-18 01:38+03:00\n"
+"PO-Revision-Date: 2017-03-18 01:38+03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 msgid "\", \"(((\").Replace(\""
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:267
+#: Views\Listing\Listing.cshtml:269
 #: Views\Listing\Profile.cshtml:25
 #: Views\Listing\Review.cshtml:36
 msgid "{0:N0} reviews"
@@ -152,7 +152,7 @@ msgstr "Tilføj"
 msgid "Are you sure?"
 msgstr "Er du sikker?"
 
-#: Areas\Admin\Controllers\ManageController.cs:550
+#: Areas\Admin\Controllers\ManageController.cs:571
 msgid "At least one language should be enabled!"
 msgstr "Der skal mindst være ét sprog aktiveret"
 
@@ -217,7 +217,7 @@ msgstr "Annulleret"
 msgid "Categories"
 msgstr "Kategorier"
 
-#: Views\Listing\Listing.cshtml:140
+#: Views\Listing\Listing.cshtml:142
 #: Views\Listing\Listings.cshtml:50
 #: Views\Listing\ListingUpdate.cshtml:35
 #: Views\Listing\_ListingGridList.cshtml:35
@@ -327,10 +327,10 @@ msgid "Connnect to stripe successfully!"
 msgstr "Du er nu forbundet til Stripe"
 
 #: Views\Home\Contact.cshtml:4
-#: Views\Listing\Listing.cshtml:66
-#: Views\Listing\Listing.cshtml:236
-#: Views\Listing\Listing.cshtml:239
-#: Views\Listing\Listing.cshtml:271
+#: Views\Listing\Listing.cshtml:68
+#: Views\Listing\Listing.cshtml:238
+#: Views\Listing\Listing.cshtml:241
+#: Views\Listing\Listing.cshtml:273
 #: Views\Listing\_ListingContactModal.cshtml:8
 msgid "Contact"
 msgstr "Kontakt"
@@ -343,8 +343,8 @@ msgstr "Kontakt email"
 msgid "Contact Name"
 msgstr "Kontaktnavn"
 
-#: Views\Listing\Listing.cshtml:230
-#: Views\Listing\Listing.cshtml:230
+#: Views\Listing\Listing.cshtml:232
+#: Views\Listing\Listing.cshtml:232
 #: Views\Listing\_ListingContactModal.cshtml:17
 msgid "Contact number (Click to show)"
 msgstr "Telefonnr. (Klik for at vise)"
@@ -466,7 +466,7 @@ msgstr "Brugernavn til database"
 msgid "Date Format"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:175
+#: Views\Listing\Listing.cshtml:177
 msgid "Date Posted"
 msgstr "Dato oprettet"
 
@@ -474,7 +474,7 @@ msgstr "Dato oprettet"
 msgid "Default Language"
 msgstr "Standardsprog"
 
-#: Areas\Admin\Controllers\ManageController.cs:557
+#: Areas\Admin\Controllers\ManageController.cs:578
 msgid "Default language must be enabled first!"
 msgstr "Du skal først vælge et standardsprog"
 
@@ -490,7 +490,7 @@ msgstr "Slet"
 msgid "Deleted!"
 msgstr "Slettet"
 
-#: Views\Listing\Listing.cshtml:55
+#: Views\Listing\Listing.cshtml:57
 #: Views\Listing\ListingUpdate.cshtml:48
 #: Views\Listing\_ListingGridList.cshtml:40
 #: Views\Payment\Orders.cshtml:128
@@ -541,7 +541,7 @@ msgstr ""
 msgid "e.g. Per day"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:36
+#: Views\Listing\Listing.cshtml:38
 #: Views\Manage\Dashboard.cshtml:47
 #: Areas\Admin\Views\ContentPage\ContentPages.cshtml:15
 #: Areas\Admin\Views\Listing\Categories.cshtml:21
@@ -856,7 +856,7 @@ msgstr "Javascript kode editor"
 msgid "Join"
 msgstr "Opret"
 
-#: Views\Listing\Listing.cshtml:262
+#: Views\Listing\Listing.cshtml:264
 #: Views\Listing\Profile.cshtml:28
 #: Views\Listing\Review.cshtml:33
 msgid "Joined since"
@@ -904,7 +904,7 @@ msgstr "Liste"
 msgid "Listing Details"
 msgstr "Annoncedetaljer"
 
-#: Views\Listing\Listing.cshtml:183
+#: Views\Listing\Listing.cshtml:185
 msgid "Listing ID"
 msgstr "Annonce ID"
 
@@ -916,7 +916,7 @@ msgstr ""
 msgid "Listing review is not allowed!"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:159
+#: Views\Listing\Listing.cshtml:161
 #: Views\Listing\Listings.cshtml:55
 #: Views\Shared\_ListingTypes.cshtml:6
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:44
@@ -962,7 +962,7 @@ msgstr "Annoncer"
 msgid "Listings by category"
 msgstr "Annoncer efter kategori"
 
-#: Views\Listing\Listing.cshtml:167
+#: Views\Listing\Listing.cshtml:169
 #: Views\Listing\Listings.cshtml:70
 #: Views\Listing\Listings.cshtml:71
 #: Views\Listing\ListingUpdate.cshtml:88
@@ -1051,11 +1051,11 @@ msgstr "Administrér plugins"
 msgid "Manage Users"
 msgstr "Administrér brugere"
 
-#: Views\Listing\Listing.cshtml:216
+#: Views\Listing\Listing.cshtml:218
 msgid "Map"
 msgstr "Kort"
 
-#: Views\Listing\Listing.cshtml:58
+#: Views\Listing\Listing.cshtml:60
 msgid "Maps"
 msgstr ""
 
@@ -1084,7 +1084,7 @@ msgstr ""
 msgid "Message sent succesfully!"
 msgstr "Beskeden er sendt"
 
-#: Areas\Admin\Controllers\ManageController.cs:442
+#: Areas\Admin\Controllers\ManageController.cs:460
 msgid "Message sent to {0} succesfully!"
 msgstr ""
 
@@ -1135,7 +1135,7 @@ msgstr "Ny adgangskode"
 msgid "New Password"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:110
+#: Views\Listing\Listing.cshtml:112
 msgid "Next"
 msgstr "Næste"
 
@@ -1289,7 +1289,7 @@ msgstr "Telefonnr. er bekræftet"
 msgid "Picture"
 msgstr "Billede"
 
-#: Views\Listing\Listing.cshtml:82
+#: Views\Listing\Listing.cshtml:84
 msgid "Pictures"
 msgstr ""
 
@@ -1330,11 +1330,11 @@ msgstr "Port"
 msgid "Premium"
 msgstr "Premium"
 
-#: Views\Listing\Listing.cshtml:106
+#: Views\Listing\Listing.cshtml:108
 msgid "Previous"
 msgstr "Tilbage"
 
-#: Views\Listing\Listing.cshtml:150
+#: Views\Listing\Listing.cshtml:152
 #: Views\Listing\Listings.cshtml:75
 #: Views\Listing\ListingUpdate.cshtml:60
 #: Views\Listing\ListingUpdate.cshtml:62
@@ -1380,7 +1380,7 @@ msgid "Publish Listing"
 msgstr "Opret annonce"
 
 #: Views\Manage\Dashboard.cshtml:28
-#: Views\Shared\_Layout.cshtml:74
+#: Views\Shared\_Layout.cshtml:75
 #: Views\Shared\_LoginPartial.cshtml:64
 #: Views\Shared\_NavigationSide.cshtml:70
 #: Views\Shared\_NavigationSide.cshtml:84
@@ -1465,7 +1465,7 @@ msgstr "Din adgangskode er nulstillet"
 msgid "Review"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:62
+#: Views\Listing\Listing.cshtml:64
 #: Views\Listing\Review.cshtml:5
 #: Views\Listing\_ListingCard.cshtml:26
 #: Views\Listing\_ListingReview.cshtml:11
@@ -1497,7 +1497,7 @@ msgstr "Gem"
 msgid "Search"
 msgstr "Søg"
 
-#: Views\Shared\_Layout.cshtml:62
+#: Views\Shared\_Layout.cshtml:63
 msgid "Search for..."
 msgstr "Søg..."
 
@@ -1568,7 +1568,7 @@ msgstr "Server domæne/IP"
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: Views\Listing\Listing.cshtml:276
+#: Views\Listing\Listing.cshtml:278
 msgid "Share"
 msgstr "Del"
 
@@ -1671,7 +1671,7 @@ msgstr "Vilkår og betingelser"
 msgid "Test Send"
 msgstr "Send en test"
 
-#: Areas\Admin\Controllers\ManageController.cs:437
+#: Areas\Admin\Controllers\ManageController.cs:438
 msgid "Testing"
 msgstr "Tester"
 
@@ -1890,7 +1890,7 @@ msgstr "Brug dette område til at give ekstra information."
 msgid "User"
 msgstr "Bruger"
 
-#: Areas\Admin\Controllers\ManageController.cs:211
+#: Areas\Admin\Controllers\ManageController.cs:212
 msgid "User {0} is deleted."
 msgstr ""
 
@@ -1929,12 +1929,12 @@ msgstr "Bekræft telefonnr."
 msgid "Version"
 msgstr "Version"
 
-#: Views\Listing\Listing.cshtml:231
+#: Views\Listing\Listing.cshtml:233
 #: Views\Listing\_ListingContactModal.cshtml:18
 msgid "View User's other listings"
 msgstr "Se andre annoncer fra denne bruger"
 
-#: Views\Listing\Listing.cshtml:265
+#: Views\Listing\Listing.cshtml:267
 msgid "View user's profile and other listings"
 msgstr ""
 
@@ -1942,7 +1942,7 @@ msgstr ""
 msgid "View Your Profile"
 msgstr "Se profil"
 
-#: Views\Listing\Listing.cshtml:191
+#: Views\Listing\Listing.cshtml:193
 msgid "Views"
 msgstr "Besøgende"
 
@@ -1976,7 +1976,7 @@ msgstr "ja, slet"
 msgid "You cannot book the item from yourself!"
 msgstr "Du kan ikke købe en vare af dig selv"
 
-#: Areas\Admin\Controllers\ManageController.cs:203
+#: Areas\Admin\Controllers\ManageController.cs:204
 msgid "You cannot delete Administrator, change the user role first."
 msgstr ""
 

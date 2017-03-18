@@ -1,0 +1,186 @@
+﻿<error errorId="34a656d4-b634-41ba-ae27-329d672b71d1" host="DESKTOP-D5O5G7T" type="System.NullReferenceException" message="Object reference not set to an instance of an object." source="App_Web_td4ozpwy" detail="System.NullReferenceException: Object reference not set to an instance of an object.&#xD;&#xA;   at ASP._Page_Areas_Admin_Views_manage_EmailTemplateUpdate_cshtml.Execute() in c:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\Areas\Admin\Views\Manage\EmailTemplateUpdate.cshtml:line 24&#xD;&#xA;   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()&#xD;&#xA;   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()&#xD;&#xA;   at System.Web.WebPages.StartPage.RunPage()&#xD;&#xA;   at System.Web.WebPages.StartPage.ExecutePageHierarchy()&#xD;&#xA;   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)&#xD;&#xA;   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)&#xD;&#xA;   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)&#xD;&#xA;   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)" user="ramazanburak19@gmail.com" time="2017-03-15T20:34:57.2016380Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch, br&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;HTTP_COOKIE:wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; __RequestVerificationToken=Ei6VFD3yKEw1w_kaJMkXne-8Fivc0TmnurfyXhnBy3dMjHi-teaFz-jY_Hdfdbx0GeSZadIaSNuFApNs2jrUVup4v3iLIA-eLMgHLUrZVy01; .AspNet.ApplicationCookie=7He3nQqUKD8wPZWzdY5ifn69bKRPsuUefOpc3ZkjQbTE0zpFfGJParOBtU68eqfKUOSzk6AtbwGteVm5Pe0aeG9FJyrFFlrLcrDRmt_ibC7Rlk5BMnqvejJISk9zgzi9z4s9ofu4cYeElVAQfPz8kE6Jq_kvjTJzPP6NpZHdXvKceWYpzkJFBetBtQCWh8jznf3URf43EkhOT6AWIXIuklKCeTCMx15b_bSeSyLknlR9KAsUVNk9x--QkGHDINyr-b0zzv0YWADJsVpvfOnzGvdeIzyr-TQ6YtX0IRgwXDb3y4avmMUN5_ZGaKmrzi0spoXf4rp3FlwFSe0gNvtzOsJJMkEz-REzPNmXRxOKf5tnUnQl-M70O-xpDU1EzZ5nu7OPfAcPxpT7c4VfE1ikm5uRLo-Ydnm3MCxCdm19kfAwPD4aDej9PpFWd2agKc9IHuMuKiLgznHUUVPEy-Hy8MpLUPgxCbWiCPrB2cU1Rk_hc-sY_fy7sbEpixSl6sjWJncFYnkCMzYd72XUP_Mt4KyCtVs4iyQpELPlImwGBE0; ASP.NET_SessionId=40nlmf5qhj0s2w3u2zi4fxuv; roxyld=%2Ffileman%2FUploads; roxyview=list&#xD;&#xA;HTTP_HOST:localhost:60156&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch, br&#xD;&#xA;Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;Cookie: wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; __RequestVerificationToken=Ei6VFD3yKEw1w_kaJMkXne-8Fivc0TmnurfyXhnBy3dMjHi-teaFz-jY_Hdfdbx0GeSZadIaSNuFApNs2jrUVup4v3iLIA-eLMgHLUrZVy01; .AspNet.ApplicationCookie=7He3nQqUKD8wPZWzdY5ifn69bKRPsuUefOpc3ZkjQbTE0zpFfGJParOBtU68eqfKUOSzk6AtbwGteVm5Pe0aeG9FJyrFFlrLcrDRmt_ibC7Rlk5BMnqvejJISk9zgzi9z4s9ofu4cYeElVAQfPz8kE6Jq_kvjTJzPP6NpZHdXvKceWYpzkJFBetBtQCWh8jznf3URf43EkhOT6AWIXIuklKCeTCMx15b_bSeSyLknlR9KAsUVNk9x--QkGHDINyr-b0zzv0YWADJsVpvfOnzGvdeIzyr-TQ6YtX0IRgwXDb3y4avmMUN5_ZGaKmrzi0spoXf4rp3FlwFSe0gNvtzOsJJMkEz-REzPNmXRxOKf5tnUnQl-M70O-xpDU1EzZ5nu7OPfAcPxpT7c4VfE1ikm5uRLo-Ydnm3MCxCdm19kfAwPD4aDej9PpFWd2agKc9IHuMuKiLgznHUUVPEy-Hy8MpLUPgxCbWiCPrB2cU1Rk_hc-sY_fy7sbEpixSl6sjWJncFYnkCMzYd72XUP_Mt4KyCtVs4iyQpELPlImwGBE0; ASP.NET_SessionId=40nlmf5qhj0s2w3u2zi4fxuv; roxyld=%2Ffileman%2FUploads; roxyview=list&#xD;&#xA;Host: localhost:60156&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="ApplicationCookie" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/admin/manage/emailtemplateupdate" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\admin\manage\emailtemplateupdate" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="11452" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/admin/manage/emailtemplateupdate" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="60156" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/admin/manage/emailtemplateupdate" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch, br" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; __RequestVerificationToken=Ei6VFD3yKEw1w_kaJMkXne-8Fivc0TmnurfyXhnBy3dMjHi-teaFz-jY_Hdfdbx0GeSZadIaSNuFApNs2jrUVup4v3iLIA-eLMgHLUrZVy01; .AspNet.ApplicationCookie=7He3nQqUKD8wPZWzdY5ifn69bKRPsuUefOpc3ZkjQbTE0zpFfGJParOBtU68eqfKUOSzk6AtbwGteVm5Pe0aeG9FJyrFFlrLcrDRmt_ibC7Rlk5BMnqvejJISk9zgzi9z4s9ofu4cYeElVAQfPz8kE6Jq_kvjTJzPP6NpZHdXvKceWYpzkJFBetBtQCWh8jznf3URf43EkhOT6AWIXIuklKCeTCMx15b_bSeSyLknlR9KAsUVNk9x--QkGHDINyr-b0zzv0YWADJsVpvfOnzGvdeIzyr-TQ6YtX0IRgwXDb3y4avmMUN5_ZGaKmrzi0spoXf4rp3FlwFSe0gNvtzOsJJMkEz-REzPNmXRxOKf5tnUnQl-M70O-xpDU1EzZ5nu7OPfAcPxpT7c4VfE1ikm5uRLo-Ydnm3MCxCdm19kfAwPD4aDej9PpFWd2agKc9IHuMuKiLgznHUUVPEy-Hy8MpLUPgxCbWiCPrB2cU1Rk_hc-sY_fy7sbEpixSl6sjWJncFYnkCMzYd72XUP_Mt4KyCtVs4iyQpELPlImwGBE0; ASP.NET_SessionId=40nlmf5qhj0s2w3u2zi4fxuv; roxyld=%2Ffileman%2FUploads; roxyview=list" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:60156" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b">
+      <value string="burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038" />
+    </item>
+    <item name="ai_user">
+      <value string="3aPDE|2017-03-09T23:00:52.688Z" />
+    </item>
+    <item name="redux_current_tab_get">
+      <value string="14" />
+    </item>
+    <item name="redux_current_tab">
+      <value string="14" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="Ei6VFD3yKEw1w_kaJMkXne-8Fivc0TmnurfyXhnBy3dMjHi-teaFz-jY_Hdfdbx0GeSZadIaSNuFApNs2jrUVup4v3iLIA-eLMgHLUrZVy01" />
+    </item>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="7He3nQqUKD8wPZWzdY5ifn69bKRPsuUefOpc3ZkjQbTE0zpFfGJParOBtU68eqfKUOSzk6AtbwGteVm5Pe0aeG9FJyrFFlrLcrDRmt_ibC7Rlk5BMnqvejJISk9zgzi9z4s9ofu4cYeElVAQfPz8kE6Jq_kvjTJzPP6NpZHdXvKceWYpzkJFBetBtQCWh8jznf3URf43EkhOT6AWIXIuklKCeTCMx15b_bSeSyLknlR9KAsUVNk9x--QkGHDINyr-b0zzv0YWADJsVpvfOnzGvdeIzyr-TQ6YtX0IRgwXDb3y4avmMUN5_ZGaKmrzi0spoXf4rp3FlwFSe0gNvtzOsJJMkEz-REzPNmXRxOKf5tnUnQl-M70O-xpDU1EzZ5nu7OPfAcPxpT7c4VfE1ikm5uRLo-Ydnm3MCxCdm19kfAwPD4aDej9PpFWd2agKc9IHuMuKiLgznHUUVPEy-Hy8MpLUPgxCbWiCPrB2cU1Rk_hc-sY_fy7sbEpixSl6sjWJncFYnkCMzYd72XUP_Mt4KyCtVs4iyQpELPlImwGBE0" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="40nlmf5qhj0s2w3u2zi4fxuv" />
+    </item>
+    <item name="roxyld">
+      <value string="%2Ffileman%2FUploads" />
+    </item>
+    <item name="roxyview">
+      <value string="list" />
+    </item>
+  </cookies>
+</error>

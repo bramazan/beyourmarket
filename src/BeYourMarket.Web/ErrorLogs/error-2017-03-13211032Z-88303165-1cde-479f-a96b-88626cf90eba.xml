@@ -1,0 +1,257 @@
+﻿<error errorId="88303165-1cde-479f-a96b-88626cf90eba" host="DESKTOP-D5O5G7T" type="System.Data.SqlClient.SqlException" message="The UPDATE statement conflicted with the FOREIGN KEY constraint &quot;FK_dbo.Listings_dbo.ListingTypes_ListingTypeID&quot;. The conflict occurred in database &quot;marketDb&quot;, table &quot;dbo.ListingTypes&quot;, column 'ID'.&#xD;&#xA;The statement has been terminated." source=".Net SqlClient Data Provider" detail="System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---&gt; System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---&gt; System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint &quot;FK_dbo.Listings_dbo.ListingTypes_ListingTypeID&quot;. The conflict occurred in database &quot;marketDb&quot;, table &quot;dbo.ListingTypes&quot;, column 'ID'.&#xD;&#xA;The statement has been terminated.&#xD;&#xA;   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;&#xA;   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, String endMethod, Boolean isInternal)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)&#xD;&#xA;   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()&#xD;&#xA;   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.&lt;ExecuteAsync&gt;d__0.MoveNext()&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.&lt;UpdateAsync&gt;d__0.MoveNext()&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.&lt;UpdateAsync&gt;d__0.MoveNext()&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.Core.Objects.ObjectContext.&lt;ExecuteInTransactionAsync&gt;d__3d`1.MoveNext()&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.Core.Objects.ObjectContext.&lt;SaveChangesToStoreAsync&gt;d__39.MoveNext()&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.&lt;ExecuteAsyncImplementation&gt;d__9`1.MoveNext()&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Data.Entity.Core.Objects.ObjectContext.&lt;SaveChangesInternalAsync&gt;d__31.MoveNext()&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at Repository.Pattern.Ef6.DataContext.&lt;SaveChangesAsync&gt;d__10.MoveNext() in C:\Users\burak\Documents\GitHub\beyourmarket\src\Frameworks\Repository.Pattern.Ef6\DataContext.cs:line 159&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at Repository.Pattern.Ef6.DataContext.&lt;SaveChangesAsync&gt;d__9.MoveNext() in C:\Users\burak\Documents\GitHub\beyourmarket\src\Frameworks\Repository.Pattern.Ef6\DataContext.cs:line 100&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)&#xD;&#xA;   at BeYourMarket.Web.Areas.Admin.Controllers.ListingController.&lt;ListingUpdate&gt;d__44.MoveNext() in C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\Areas\Admin\Controllers\ListingController.cs:line 585&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeAsynchronousActionMethod&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3d()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;&gt;c__DisplayClass46.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3f()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass33.&lt;BeginInvokeActionMethodWithFilters&gt;b__32(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;BeginExecute&gt;b__15(IAsyncResult asyncResult, Controller controller)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)" user="ramazanburak19@gmail.com" time="2017-03-13T21:10:32.7105038Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_CONTENT_LENGTH:281312&#xD;&#xA;HTTP_CONTENT_TYPE:multipart/form-data; boundary=----WebKitFormBoundaryMSxxVESXmz8OhXxp&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, br&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;HTTP_COOKIE:wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; PHPSESSID=finio6qdvpvg477phes1rk9rh7; __RequestVerificationToken=2tcM5gcoXYXtow57Lfti0VYfv727ecL3nV0_KbSaXRs1Iyl8wLQS8Y-F28HCEzO2O9M5upsUSxipBXppvdCazUOaCc_k5s0JUoF--cilWvE1; .AspNet.ApplicationCookie=TNF5MdmE80gFHA8S2vEsRUrawKR4qmYl2bVJiQXWGiiR9SK1mAa5MRPF_sBb4csilSrB2WBAPTiEI02HhHR0-lTkHBKqQyZM7F-spWQ5aWxEl10YZ4iiuSJbUwJfJs2gItYbJs4p7sxT8_UiQL8gaOwVrKk9ceg-8ZCnYdMDUj5gCy5T17hvaJUUl3fQfIIZfYs_7FXhP-_4sORMNO8zoMGGLtTH3JLHVqjxTlMlWHHL6t48sdEbm0mdOD7aZb9SkcGZLqBMFtAycqnHJZsdC8H6QPIHBTn06U2NMVr5yzDrsCMd77WRMEB5yCjV_5bHBlubonJABn03gtE0RrzyrtforNn9XuaBZG2r3KKu2jJF5H2T2QwZsI3rgs1Kqu3NjrtnkEbOGH9owlTmeckCDOAoYOqviQycewolJ_Upqly68fT6eyy2Lsn5wSTCrQvPDeDpAvWk9QCVrNIVhRiTY87Kb5BqMYFykSAM4Frf31DOeOxidCcMxGxrABgBW1ySze-po9jjQxOwXWRB1NJnk1UuZy5CTI8uqWuedH08Nb0&#xD;&#xA;HTTP_HOST:localhost:60156&#xD;&#xA;HTTP_REFERER:http://localhost:60156/tr/admin/listing/listingupdate/19&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;HTTP_ORIGIN:http://localhost:60156&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Content-Length: 281312&#xD;&#xA;Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryMSxxVESXmz8OhXxp&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, br&#xD;&#xA;Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;Cookie: wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; PHPSESSID=finio6qdvpvg477phes1rk9rh7; __RequestVerificationToken=2tcM5gcoXYXtow57Lfti0VYfv727ecL3nV0_KbSaXRs1Iyl8wLQS8Y-F28HCEzO2O9M5upsUSxipBXppvdCazUOaCc_k5s0JUoF--cilWvE1; .AspNet.ApplicationCookie=TNF5MdmE80gFHA8S2vEsRUrawKR4qmYl2bVJiQXWGiiR9SK1mAa5MRPF_sBb4csilSrB2WBAPTiEI02HhHR0-lTkHBKqQyZM7F-spWQ5aWxEl10YZ4iiuSJbUwJfJs2gItYbJs4p7sxT8_UiQL8gaOwVrKk9ceg-8ZCnYdMDUj5gCy5T17hvaJUUl3fQfIIZfYs_7FXhP-_4sORMNO8zoMGGLtTH3JLHVqjxTlMlWHHL6t48sdEbm0mdOD7aZb9SkcGZLqBMFtAycqnHJZsdC8H6QPIHBTn06U2NMVr5yzDrsCMd77WRMEB5yCjV_5bHBlubonJABn03gtE0RrzyrtforNn9XuaBZG2r3KKu2jJF5H2T2QwZsI3rgs1Kqu3NjrtnkEbOGH9owlTmeckCDOAoYOqviQycewolJ_Upqly68fT6eyy2Lsn5wSTCrQvPDeDpAvWk9QCVrNIVhRiTY87Kb5BqMYFykSAM4Frf31DOeOxidCcMxGxrABgBW1ySze-po9jjQxOwXWRB1NJnk1UuZy5CTI8uqWuedH08Nb0&#xD;&#xA;Host: localhost:60156&#xD;&#xA;Referer: http://localhost:60156/tr/admin/listing/listingupdate/19&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;Origin: http://localhost:60156&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="ApplicationCookie" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="ramazanburak19@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="281312" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=----WebKitFormBoundaryMSxxVESXmz8OhXxp" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/admin/listing/listingupdate/19" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\admin\listing\listingupdate\19" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="46882" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/admin/listing/listingupdate/19" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="60156" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/admin/listing/listingupdate/19" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="281312" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=----WebKitFormBoundaryMSxxVESXmz8OhXxp" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, br" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b=burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038; ai_user=3aPDE|2017-03-09T23:00:52.688Z; redux_current_tab_get=14; redux_current_tab=14; PHPSESSID=finio6qdvpvg477phes1rk9rh7; __RequestVerificationToken=2tcM5gcoXYXtow57Lfti0VYfv727ecL3nV0_KbSaXRs1Iyl8wLQS8Y-F28HCEzO2O9M5upsUSxipBXppvdCazUOaCc_k5s0JUoF--cilWvE1; .AspNet.ApplicationCookie=TNF5MdmE80gFHA8S2vEsRUrawKR4qmYl2bVJiQXWGiiR9SK1mAa5MRPF_sBb4csilSrB2WBAPTiEI02HhHR0-lTkHBKqQyZM7F-spWQ5aWxEl10YZ4iiuSJbUwJfJs2gItYbJs4p7sxT8_UiQL8gaOwVrKk9ceg-8ZCnYdMDUj5gCy5T17hvaJUUl3fQfIIZfYs_7FXhP-_4sORMNO8zoMGGLtTH3JLHVqjxTlMlWHHL6t48sdEbm0mdOD7aZb9SkcGZLqBMFtAycqnHJZsdC8H6QPIHBTn06U2NMVr5yzDrsCMd77WRMEB5yCjV_5bHBlubonJABn03gtE0RrzyrtforNn9XuaBZG2r3KKu2jJF5H2T2QwZsI3rgs1Kqu3NjrtnkEbOGH9owlTmeckCDOAoYOqviQycewolJ_Upqly68fT6eyy2Lsn5wSTCrQvPDeDpAvWk9QCVrNIVhRiTY87Kb5BqMYFykSAM4Frf31DOeOxidCcMxGxrABgBW1ySze-po9jjQxOwXWRB1NJnk1UuZy5CTI8uqWuedH08Nb0" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:60156" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:60156/tr/admin/listing/listingupdate/19" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:60156" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="ListingItem.ID">
+      <value string="19" />
+    </item>
+    <item name="CategoryID">
+      <value string="6" />
+    </item>
+    <item name="Title">
+      <value string="Sharp Line - &quot;HOME&quot; Pendant" />
+    </item>
+    <item name="Description">
+      <value string="One of 3 unique designs in the&#xD;&#xA;&#xD;&#xA;This purchase includes the Pendant only (you must buy chain separately).&#xD;&#xA;&#xD;&#xA;The HOME is both grounding and freeing at the same time.  It allows you to be seen as you are, and as you want to be seen.  A perfect gift for someone special, striking inside and out!" />
+    </item>
+    <item name="Tags">
+      <value string="Pendant,Women,Medium,3dprintedjewelry,art,deco,brass pendant,retro jewelry,retro pendant,womens jewelry" />
+    </item>
+    <item name="ContactName">
+      <value string="3DMarket" />
+    </item>
+    <item name="ContactEmail">
+      <value string="ilan@3dmarkets.co" />
+    </item>
+    <item name="ShowEmail">
+      <value string="true" />
+    </item>
+    <item name="UserID">
+      <value string="70712d55-0bd3-46c1-8550-aa91c48f989b" />
+    </item>
+    <item name="Currency">
+      <value string="TL " />
+    </item>
+    <item name="Price">
+      <value string="100" />
+    </item>
+    <item name="Expiration">
+      <value string="13.05.2017" />
+    </item>
+    <item name="Created">
+      <value string="13.03.2017" />
+    </item>
+    <item name="LastUpdated">
+      <value string="13.03.2017" />
+    </item>
+    <item name="Active">
+      <value string="true" />
+    </item>
+    <item name="Enabled">
+      <value string="true" />
+    </item>
+    <item name="Location">
+      <value string="Istanbul" />
+    </item>
+    <item name="Longitude">
+      <value string="36" />
+    </item>
+    <item name="Latitude">
+      <value string="39" />
+    </item>
+    <item name="customfield_1_6_1">
+      <value string="Pendant" />
+    </item>
+  </form>
+  <cookies>
+    <item name="wordpress_logged_in_14022e78d1c29454a9abebdcb5db923b">
+      <value string="burak%7C1489684488%7C9cmAQjoSLuojjZRiimqQyKBNMKH1mfY3ZWe175EE7qV%7Cf7021db958fcfe539cd5a8d517e9b8718e87e7e67aa652afd0d90327c8771038" />
+    </item>
+    <item name="ai_user">
+      <value string="3aPDE|2017-03-09T23:00:52.688Z" />
+    </item>
+    <item name="redux_current_tab_get">
+      <value string="14" />
+    </item>
+    <item name="redux_current_tab">
+      <value string="14" />
+    </item>
+    <item name="PHPSESSID">
+      <value string="finio6qdvpvg477phes1rk9rh7" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="2tcM5gcoXYXtow57Lfti0VYfv727ecL3nV0_KbSaXRs1Iyl8wLQS8Y-F28HCEzO2O9M5upsUSxipBXppvdCazUOaCc_k5s0JUoF--cilWvE1" />
+    </item>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="TNF5MdmE80gFHA8S2vEsRUrawKR4qmYl2bVJiQXWGiiR9SK1mAa5MRPF_sBb4csilSrB2WBAPTiEI02HhHR0-lTkHBKqQyZM7F-spWQ5aWxEl10YZ4iiuSJbUwJfJs2gItYbJs4p7sxT8_UiQL8gaOwVrKk9ceg-8ZCnYdMDUj5gCy5T17hvaJUUl3fQfIIZfYs_7FXhP-_4sORMNO8zoMGGLtTH3JLHVqjxTlMlWHHL6t48sdEbm0mdOD7aZb9SkcGZLqBMFtAycqnHJZsdC8H6QPIHBTn06U2NMVr5yzDrsCMd77WRMEB5yCjV_5bHBlubonJABn03gtE0RrzyrtforNn9XuaBZG2r3KKu2jJF5H2T2QwZsI3rgs1Kqu3NjrtnkEbOGH9owlTmeckCDOAoYOqviQycewolJ_Upqly68fT6eyy2Lsn5wSTCrQvPDeDpAvWk9QCVrNIVhRiTY87Kb5BqMYFykSAM4Frf31DOeOxidCcMxGxrABgBW1ySze-po9jjQxOwXWRB1NJnk1UuZy5CTI8uqWuedH08Nb0" />
+    </item>
+  </cookies>
+</error>

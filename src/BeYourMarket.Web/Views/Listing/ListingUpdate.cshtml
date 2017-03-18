@@ -235,8 +235,8 @@
             var mapOptions = {
                 draggable: isDraggable,
                 scrollwheel: false, // Prevent users to start zooming the map when scrolling down the page
-                zoom: 14,
-                center: new google.maps.LatLng(-33.8688, 151.2195),
+                zoom: 7,
+                center: new google.maps.LatLng(39.8688, 32.2195),
             };
 
             @{ var hasLatLng = @Model.ListingItem.Latitude.HasValue && @Model.ListingItem.Longitude.HasValue; }

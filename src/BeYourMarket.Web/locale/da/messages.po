@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-10 22:11+03:00\n"
-"PO-Revision-Date: 2017-03-10 22:11+03:00\n"
+"POT-Creation-Date: 2017-03-18 18:21+03:00\n"
+"PO-Revision-Date: 2017-03-18 18:21+03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -152,7 +152,7 @@ msgstr "Tilføj"
 msgid "Are you sure?"
 msgstr "Er du sikker?"
 
-#: Areas\Admin\Controllers\ManageController.cs:550
+#: Areas\Admin\Controllers\ManageController.cs:571
 msgid "At least one language should be enabled!"
 msgstr "Der skal mindst være ét sprog aktiveret"
 
@@ -474,7 +474,7 @@ msgstr "Dato oprettet"
 msgid "Default Language"
 msgstr "Standardsprog"
 
-#: Areas\Admin\Controllers\ManageController.cs:557
+#: Areas\Admin\Controllers\ManageController.cs:578
 msgid "Default language must be enabled first!"
 msgstr "Du skal først vælge et standardsprog"
 
@@ -1084,7 +1084,7 @@ msgstr ""
 msgid "Message sent succesfully!"
 msgstr "Beskeden er sendt"
 
-#: Areas\Admin\Controllers\ManageController.cs:442
+#: Areas\Admin\Controllers\ManageController.cs:460
 msgid "Message sent to {0} succesfully!"
 msgstr ""
 
@@ -1671,7 +1671,7 @@ msgstr "Vilkår og betingelser"
 msgid "Test Send"
 msgstr "Send en test"
 
-#: Areas\Admin\Controllers\ManageController.cs:437
+#: Areas\Admin\Controllers\ManageController.cs:438
 msgid "Testing"
 msgstr "Tester"
 
@@ -1890,7 +1890,7 @@ msgstr "Brug dette område til at give ekstra information."
 msgid "User"
 msgstr "Bruger"
 
-#: Areas\Admin\Controllers\ManageController.cs:211
+#: Areas\Admin\Controllers\ManageController.cs:212
 msgid "User {0} is deleted."
 msgstr ""
 
@@ -1976,7 +1976,7 @@ msgstr "ja, slet"
 msgid "You cannot book the item from yourself!"
 msgstr "Du kan ikke købe en vare af dig selv"
 
-#: Areas\Admin\Controllers\ManageController.cs:203
+#: Areas\Admin\Controllers\ManageController.cs:204
 msgid "You cannot delete Administrator, change the user role first."
 msgstr ""
 

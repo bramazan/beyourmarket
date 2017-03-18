@@ -34,6 +34,7 @@ using BeYourMarket.Core;
 using BeYourMarket.Core.Controllers;
 using Microsoft.Practices.Unity;
 using System.Globalization;
+using System.Web.Helpers;
 
 namespace BeYourMarket.Web.Areas.Admin.Controllers
 {
@@ -436,6 +437,23 @@ namespace BeYourMarket.Web.Areas.Admin.Controllers
             email.From = CacheHelper.Settings.EmailAddress;
             email.Subject = "[[[Testing]]] - " + emailTemplate.Subject;
             email.Body = emailTemplate.Body;
+            try
+            {
+                WebMail.SmtpServer = "smtp.gmail.com";
+                WebMail.EnableSsl = true;
+                WebMail.UserName = "ramazanburak19@gmail.com";
+                WebMail.Password = "b22990648932";
+                WebMail.SmtpPort = 587;
+                WebMail.SmtpUseDefaultCredentials = true;
+                WebMail.Send(to: email.To, subject: email.Subject,
+                body: email.Body);
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Hata:...", ex);
+            }
+            
 
             EmailHelper.SendEmail(email);
 
@@ -443,6 +461,9 @@ namespace BeYourMarket.Web.Areas.Admin.Controllers
 
             return RedirectToAction("EmailTemplateUpdate", new { id = id });
         }
+
+       
+
 
         [ChildActionOnly]
         public ActionResult LanguageSelector()

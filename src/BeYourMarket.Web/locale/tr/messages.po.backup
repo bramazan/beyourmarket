@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-10 22:06+03:00\n"
-"PO-Revision-Date: 2017-03-10 22:06+03:00\n"
+"POT-Creation-Date: 2017-03-18 01:38+03:00\n"
+"PO-Revision-Date: 2017-03-18 01:38+03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 msgid "\", \"(((\").Replace(\""
 msgstr "\", \"(((\").Replace(\""
 
-#: Views\Listing\Listing.cshtml:267
+#: Views\Listing\Listing.cshtml:269
 #: Views\Listing\Profile.cshtml:25
 #: Views\Listing\Review.cshtml:36
 msgid "{0:N0} reviews"
@@ -152,7 +152,7 @@ msgstr "Uygula"
 msgid "Are you sure?"
 msgstr "Emin misiniz?"
 
-#: Areas\Admin\Controllers\ManageController.cs:550
+#: Areas\Admin\Controllers\ManageController.cs:571
 msgid "At least one language should be enabled!"
 msgstr "En az bir dil etkinleştirilmelidir"
 
@@ -217,7 +217,7 @@ msgstr "İptal Edildi!"
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: Views\Listing\Listing.cshtml:140
+#: Views\Listing\Listing.cshtml:142
 #: Views\Listing\Listings.cshtml:50
 #: Views\Listing\ListingUpdate.cshtml:35
 #: Views\Listing\_ListingGridList.cshtml:35
@@ -327,10 +327,10 @@ msgid "Connnect to stripe successfully!"
 msgstr "Stripe'a başarıyla bağlanıldı"
 
 #: Views\Home\Contact.cshtml:4
-#: Views\Listing\Listing.cshtml:66
-#: Views\Listing\Listing.cshtml:236
-#: Views\Listing\Listing.cshtml:239
-#: Views\Listing\Listing.cshtml:271
+#: Views\Listing\Listing.cshtml:68
+#: Views\Listing\Listing.cshtml:238
+#: Views\Listing\Listing.cshtml:241
+#: Views\Listing\Listing.cshtml:273
 #: Views\Listing\_ListingContactModal.cshtml:8
 msgid "Contact"
 msgstr "İletişim"
@@ -343,8 +343,8 @@ msgstr "E-Posta "
 msgid "Contact Name"
 msgstr "Adınız"
 
-#: Views\Listing\Listing.cshtml:230
-#: Views\Listing\Listing.cshtml:230
+#: Views\Listing\Listing.cshtml:232
+#: Views\Listing\Listing.cshtml:232
 #: Views\Listing\_ListingContactModal.cshtml:17
 msgid "Contact number (Click to show)"
 msgstr "İletişim Numarası (Görünür olması için tıklayın)"
@@ -466,7 +466,7 @@ msgstr "Veritabanı-Kullanıcı Adı"
 msgid "Date Format"
 msgstr "Tarih Formatı"
 
-#: Views\Listing\Listing.cshtml:175
+#: Views\Listing\Listing.cshtml:177
 msgid "Date Posted"
 msgstr "Gönderilme Tarihi"
 
@@ -474,7 +474,7 @@ msgstr "Gönderilme Tarihi"
 msgid "Default Language"
 msgstr "Varsayılan Dil"
 
-#: Areas\Admin\Controllers\ManageController.cs:557
+#: Areas\Admin\Controllers\ManageController.cs:578
 msgid "Default language must be enabled first!"
 msgstr "Önce varsayılan dil etkinleştirilmelidir"
 
@@ -490,7 +490,7 @@ msgstr "Sil"
 msgid "Deleted!"
 msgstr "Silindi!"
 
-#: Views\Listing\Listing.cshtml:55
+#: Views\Listing\Listing.cshtml:57
 #: Views\Listing\ListingUpdate.cshtml:48
 #: Views\Listing\_ListingGridList.cshtml:40
 #: Views\Payment\Orders.cshtml:128
@@ -541,7 +541,7 @@ msgstr "Örneğin; Teklif"
 msgid "e.g. Per day"
 msgstr "Örneğin; Günlük"
 
-#: Views\Listing\Listing.cshtml:36
+#: Views\Listing\Listing.cshtml:38
 #: Views\Manage\Dashboard.cshtml:47
 #: Areas\Admin\Views\ContentPage\ContentPages.cshtml:15
 #: Areas\Admin\Views\Listing\Categories.cshtml:21
@@ -856,7 +856,7 @@ msgstr "Javascript Kodu Düzenleyici"
 msgid "Join"
 msgstr "Katıl"
 
-#: Views\Listing\Listing.cshtml:262
+#: Views\Listing\Listing.cshtml:264
 #: Views\Listing\Profile.cshtml:28
 #: Views\Listing\Review.cshtml:33
 msgid "Joined since"
@@ -904,7 +904,7 @@ msgstr "Listele"
 msgid "Listing Details"
 msgstr "İlan Ayrıntıları"
 
-#: Views\Listing\Listing.cshtml:183
+#: Views\Listing\Listing.cshtml:185
 msgid "Listing ID"
 msgstr "İlan NO"
 
@@ -916,7 +916,7 @@ msgstr "İlan Güncellendi!"
 msgid "Listing review is not allowed!"
 msgstr "İlan incelemesine izin verilmedi!"
 
-#: Views\Listing\Listing.cshtml:159
+#: Views\Listing\Listing.cshtml:161
 #: Views\Listing\Listings.cshtml:55
 #: Views\Shared\_ListingTypes.cshtml:6
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:44
@@ -962,7 +962,7 @@ msgstr "İlanlar"
 msgid "Listings by category"
 msgstr "Kategoriye göre İlanlar"
 
-#: Views\Listing\Listing.cshtml:167
+#: Views\Listing\Listing.cshtml:169
 #: Views\Listing\Listings.cshtml:70
 #: Views\Listing\Listings.cshtml:71
 #: Views\Listing\ListingUpdate.cshtml:88
@@ -1051,11 +1051,11 @@ msgstr "Eklentileri Yönet"
 msgid "Manage Users"
 msgstr "Kullanıcıları Yönet"
 
-#: Views\Listing\Listing.cshtml:216
+#: Views\Listing\Listing.cshtml:218
 msgid "Map"
 msgstr "Harita"
 
-#: Views\Listing\Listing.cshtml:58
+#: Views\Listing\Listing.cshtml:60
 msgid "Maps"
 msgstr "Haritalar"
 
@@ -1084,7 +1084,7 @@ msgstr "Mesaj Gönderildi."
 msgid "Message sent succesfully!"
 msgstr "Mesaj başarıyla gönderildi!"
 
-#: Areas\Admin\Controllers\ManageController.cs:442
+#: Areas\Admin\Controllers\ManageController.cs:460
 msgid "Message sent to {0} succesfully!"
 msgstr "Mesaj {0} kullanıcısına başarıyla gönderildi!"
 
@@ -1135,7 +1135,7 @@ msgstr "Yeni Şifre"
 msgid "New Password"
 msgstr "Yeni Şifre"
 
-#: Views\Listing\Listing.cshtml:110
+#: Views\Listing\Listing.cshtml:112
 msgid "Next"
 msgstr "Sonraki"
 
@@ -1289,7 +1289,7 @@ msgstr "Telefon Numarası Onayı"
 msgid "Picture"
 msgstr "Resim"
 
-#: Views\Listing\Listing.cshtml:82
+#: Views\Listing\Listing.cshtml:84
 msgid "Pictures"
 msgstr "Resimler"
 
@@ -1330,11 +1330,11 @@ msgstr "Port"
 msgid "Premium"
 msgstr "Premium"
 
-#: Views\Listing\Listing.cshtml:106
+#: Views\Listing\Listing.cshtml:108
 msgid "Previous"
 msgstr "Önceki"
 
-#: Views\Listing\Listing.cshtml:150
+#: Views\Listing\Listing.cshtml:152
 #: Views\Listing\Listings.cshtml:75
 #: Views\Listing\ListingUpdate.cshtml:60
 #: Views\Listing\ListingUpdate.cshtml:62
@@ -1380,7 +1380,7 @@ msgid "Publish Listing"
 msgstr "İlan Yayınla"
 
 #: Views\Manage\Dashboard.cshtml:28
-#: Views\Shared\_Layout.cshtml:74
+#: Views\Shared\_Layout.cshtml:75
 #: Views\Shared\_LoginPartial.cshtml:64
 #: Views\Shared\_NavigationSide.cshtml:70
 #: Views\Shared\_NavigationSide.cshtml:84
@@ -1465,7 +1465,7 @@ msgstr "Şifre Sıfırlama Onayı"
 msgid "Review"
 msgstr "İnceleme"
 
-#: Views\Listing\Listing.cshtml:62
+#: Views\Listing\Listing.cshtml:64
 #: Views\Listing\Review.cshtml:5
 #: Views\Listing\_ListingCard.cshtml:26
 #: Views\Listing\_ListingReview.cshtml:11
@@ -1497,7 +1497,7 @@ msgstr "Kaydet"
 msgid "Search"
 msgstr "Ara"
 
-#: Views\Shared\_Layout.cshtml:62
+#: Views\Shared\_Layout.cshtml:63
 msgid "Search for..."
 msgstr "Şunu Ara..."
 
@@ -1567,7 +1567,7 @@ msgstr "Server domain/IP"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: Views\Listing\Listing.cshtml:276
+#: Views\Listing\Listing.cshtml:278
 msgid "Share"
 msgstr "Paylaş"
 
@@ -1668,7 +1668,7 @@ msgstr "Şartlar & Koşullar"
 msgid "Test Send"
 msgstr "Test Gönder"
 
-#: Areas\Admin\Controllers\ManageController.cs:437
+#: Areas\Admin\Controllers\ManageController.cs:438
 msgid "Testing"
 msgstr "Deneme yapılıyor"
 
@@ -1886,7 +1886,7 @@ msgstr "Ek bilgi sağlamak için bu alanı kullanın."
 msgid "User"
 msgstr "Kullanıcı"
 
-#: Areas\Admin\Controllers\ManageController.cs:211
+#: Areas\Admin\Controllers\ManageController.cs:212
 msgid "User {0} is deleted."
 msgstr "{0} kullanıcısı silindi."
 
@@ -1925,12 +1925,12 @@ msgstr "Telefon Numarasını Doğrula"
 msgid "Version"
 msgstr "Versiyon"
 
-#: Views\Listing\Listing.cshtml:231
+#: Views\Listing\Listing.cshtml:233
 #: Views\Listing\_ListingContactModal.cshtml:18
 msgid "View User's other listings"
 msgstr "Kullanıcının diğer ilanlarını görüntüleyin"
 
-#: Views\Listing\Listing.cshtml:265
+#: Views\Listing\Listing.cshtml:267
 msgid "View user's profile and other listings"
 msgstr "Kullanıcının profilini görüntüle"
 
@@ -1938,7 +1938,7 @@ msgstr "Kullanıcının profilini görüntüle"
 msgid "View Your Profile"
 msgstr "Profili Görüntüle"
 
-#: Views\Listing\Listing.cshtml:191
+#: Views\Listing\Listing.cshtml:193
 msgid "Views"
 msgstr "Görüntüleme"
 
@@ -1972,7 +1972,7 @@ msgstr "Evet, Sil"
 msgid "You cannot book the item from yourself!"
 msgstr "Öğeyi kendinize ayıramazsınız!"
 
-#: Areas\Admin\Controllers\ManageController.cs:203
+#: Areas\Admin\Controllers\ManageController.cs:204
 msgid "You cannot delete Administrator, change the user role first."
 msgstr "Yönetici'yi silemezsiniz, önce kullanıcı rolünü değiştirin."
 

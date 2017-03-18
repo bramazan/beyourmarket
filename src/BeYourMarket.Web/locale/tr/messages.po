@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-10 22:11+03:00\n"
-"PO-Revision-Date: 2017-03-10 22:11+03:00\n"
+"POT-Creation-Date: 2017-03-18 18:21+03:00\n"
+"PO-Revision-Date: 2017-03-18 18:21+03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -152,7 +152,7 @@ msgstr "Uygula"
 msgid "Are you sure?"
 msgstr "Emin misiniz?"
 
-#: Areas\Admin\Controllers\ManageController.cs:550
+#: Areas\Admin\Controllers\ManageController.cs:571
 msgid "At least one language should be enabled!"
 msgstr "En az bir dil etkinleştirilmelidir"
 
@@ -474,7 +474,7 @@ msgstr "Gönderilme Tarihi"
 msgid "Default Language"
 msgstr "Varsayılan Dil"
 
-#: Areas\Admin\Controllers\ManageController.cs:557
+#: Areas\Admin\Controllers\ManageController.cs:578
 msgid "Default language must be enabled first!"
 msgstr "Önce varsayılan dil etkinleştirilmelidir"
 
@@ -1084,7 +1084,7 @@ msgstr "Mesaj Gönderildi."
 msgid "Message sent succesfully!"
 msgstr "Mesaj başarıyla gönderildi!"
 
-#: Areas\Admin\Controllers\ManageController.cs:442
+#: Areas\Admin\Controllers\ManageController.cs:460
 msgid "Message sent to {0} succesfully!"
 msgstr "Mesaj {0} kullanıcısına başarıyla gönderildi!"
 
@@ -1668,7 +1668,7 @@ msgstr "Şartlar & Koşullar"
 msgid "Test Send"
 msgstr "Test Gönder"
 
-#: Areas\Admin\Controllers\ManageController.cs:437
+#: Areas\Admin\Controllers\ManageController.cs:438
 msgid "Testing"
 msgstr "Deneme yapılıyor"
 
@@ -1886,7 +1886,7 @@ msgstr "Ek bilgi sağlamak için bu alanı kullanın."
 msgid "User"
 msgstr "Kullanıcı"
 
-#: Areas\Admin\Controllers\ManageController.cs:211
+#: Areas\Admin\Controllers\ManageController.cs:212
 msgid "User {0} is deleted."
 msgstr "{0} kullanıcısı silindi."
 
@@ -1972,7 +1972,7 @@ msgstr "Evet, Sil"
 msgid "You cannot book the item from yourself!"
 msgstr "Öğeyi kendinize ayıramazsınız!"
 
-#: Areas\Admin\Controllers\ManageController.cs:203
+#: Areas\Admin\Controllers\ManageController.cs:204
 msgid "You cannot delete Administrator, change the user role first."
 msgstr "Yönetici'yi silemezsiniz, önce kullanıcı rolünü değiştirin."
 

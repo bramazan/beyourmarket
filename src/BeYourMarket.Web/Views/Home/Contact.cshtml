@@ -40,6 +40,26 @@
         </div>
     </div>
 </div>
+@{ 
+    if (IsPost)
+    {
 
+        try
+        {
+            WebMail.SmtpServer = "smtp.gmail.com";
+            WebMail.EnableSsl = true;
+            WebMail.UserName = "ramazanburak19@gmail.com";
+            WebMail.Password = "b22990648932";
+            WebMail.SmtpPort = 587;
+            WebMail.SmtpUseDefaultCredentials = true;
+            WebMail.Send(to: "burakrmazan@gmail.com", subject: "Mesaj Var - İletişim Sayfası", body: "Email: " + Request["Email"] + "\n Mesaj: " + Request["Message"]);
+        }
+        catch (Exception ex)
+        {
+
+            throw new Exception("Hata:...", ex);
+        }
+    }
+}
 @section Scripts {    
 }
