@@ -324,6 +324,7 @@ namespace BeYourMarket.Web.Controllers
                 // return RedirectToAction("ForgotPasswordConfirmation", "Account");
 
                 string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
+                //code = HttpUtility.UrlEncode(code);
                 var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
 
                 var emailTemplateQuery = await _emailTemplateService.Query(x => x.Slug.ToLower() == "forgotpassword").SelectAsync();
@@ -377,7 +378,8 @@ namespace BeYourMarket.Web.Controllers
                 // Don't reveal that the user does not exist
                 return RedirectToAction("ResetPasswordConfirmation", "Account");
             }
-            var result = await UserManager.ResetPasswordAsync(user.Id, model.Code, model.Password);
+            string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
+            var result = await UserManager.ResetPasswordAsync(user.Id, code, model.Password);
             if (result.Succeeded)
             {
                 return RedirectToAction("ResetPasswordConfirmation", "Account");

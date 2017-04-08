@@ -515,6 +515,7 @@
     <Content Include="Views\Emails\_Layout.cshtml" />
     <Content Include="locale\tr\messages.po" />
     <None Include="Properties\PublishProfiles\WebApplication120170310015929 - Web Deploy.pubxml" />
+    <Content Include="Views\Home\pay.cshtml" />
     <None Include="Views\Listing\_ListingContactModal.cshtml" />
     <Content Include="Views\Shared\_ListingTypes.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_ListingTypes.cshtml" />

@@ -1,0 +1,191 @@
+﻿<error errorId="98e83746-a44c-484d-8bc6-83fada22317c" host="DESKTOP-D5O5G7T" type="System.NullReferenceException" message="Object reference not set to an instance of an object." source="BeYourMarket.Web" detail="System.NullReferenceException: Object reference not set to an instance of an object.&#xD;&#xA;   at BeYourMarket.Web.Controllers.HomeController.&lt;&gt;c__DisplayClass9_0.&lt;GetSearchResult&gt;b__5(Listing x) in C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\Controllers\HomeController.cs:line 166&#xD;&#xA;   at System.Linq.Enumerable.&lt;&gt;c__DisplayClass6_0`1.&lt;CombinePredicates&gt;b__0(TSource x)&#xD;&#xA;   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()&#xD;&#xA;   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)&#xD;&#xA;   at System.Linq.OrderedEnumerable`1.&lt;GetEnumerator&gt;d__1.MoveNext()&#xD;&#xA;   at BeYourMarket.Web.Controllers.HomeController.&lt;GetSearchResult&gt;d__9.MoveNext() in C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\Controllers\HomeController.cs:line 187&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()&#xD;&#xA;   at BeYourMarket.Web.Controllers.HomeController.&lt;Search&gt;d__8.MoveNext() in C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\Controllers\HomeController.cs:line 93&#xD;&#xA;--- End of stack trace from previous location where exception was thrown ---&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeAsynchronousActionMethod&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3d()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;&gt;c__DisplayClass46.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3f()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass33.&lt;BeginInvokeActionMethodWithFilters&gt;b__32(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)" user="burakrmazan@gmail.com" time="2017-03-20T21:30:16.9298693Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate, sdch, br&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;HTTP_COOKIE:PHPSESSID=t69g2so10bp4e4dbaod6i1okc3; __RequestVerificationToken=0MLfGt6e_tXGZHryvFUHjIgLzN_9NHrb_tAyRAbJrAeMM1I2LMgHrWRwgflfzrR7Wqs7DcRRIbgtTarv0hHOXscYKKHyUcLlNKoqemTZLI01; .AspNet.ApplicationCookie=EdZ3rwvpOr1aVl4OE6r7JhO0LqRsnZZzCn53VIACWb9saDp1ahojpAteZI6p3LGjpw0g196JTD3JUCVrrB8rw4GpJTwYuL4oT8wTj644PdO1Ofr7Oi3x4pKkpB2j2mofInwTP3sVWgu2fyoArefL0zfgA9POLQr9MhoHOFB2DkmyFv8Zrvx5ZDSNv6BtIQndlLfxl8GY3Agg_CGMhQhkvD9o-YrUOufiLbti8iH0N-EmUCAgpD3Kk1coz6o4jmFSB9jYY6Cu6-_jSloLCmJCwTwyOH9QITcSzffTAdIvB1NOP2mQ7o-ysHOqIYcic-6UtY-D6Em-PgkPrGyA6zag7hkjGVb6ofRnR07eUunqAhyy0Q15vwAB-GLEaQ6gkZHYkmOKoT5WoclmzhK69lQdADb4KjAbQVuq4kQ54KSFvX1HDm0wZw8AOCrA6YCmdqj_yw11cvIKs8USKvKe2CIPwhnHhrJzQdddfo1xACufAFhfZ4uq5ovuHrTbDgdr8xFdKImDI7WshREI3JMO6SbxJN-XMyFDwlUhluzkFzon1v4&#xD;&#xA;HTTP_HOST:localhost:60156&#xD;&#xA;HTTP_REFERER:http://localhost:60156/tr/home/search?CategoryID=7&amp;ListingTypeID=1&amp;Location=&amp;PriceFrom=&amp;PriceTo=&amp;SearchText=&amp;SortView=Grid&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate, sdch, br&#xD;&#xA;Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4&#xD;&#xA;Cookie: PHPSESSID=t69g2so10bp4e4dbaod6i1okc3; __RequestVerificationToken=0MLfGt6e_tXGZHryvFUHjIgLzN_9NHrb_tAyRAbJrAeMM1I2LMgHrWRwgflfzrR7Wqs7DcRRIbgtTarv0hHOXscYKKHyUcLlNKoqemTZLI01; .AspNet.ApplicationCookie=EdZ3rwvpOr1aVl4OE6r7JhO0LqRsnZZzCn53VIACWb9saDp1ahojpAteZI6p3LGjpw0g196JTD3JUCVrrB8rw4GpJTwYuL4oT8wTj644PdO1Ofr7Oi3x4pKkpB2j2mofInwTP3sVWgu2fyoArefL0zfgA9POLQr9MhoHOFB2DkmyFv8Zrvx5ZDSNv6BtIQndlLfxl8GY3Agg_CGMhQhkvD9o-YrUOufiLbti8iH0N-EmUCAgpD3Kk1coz6o4jmFSB9jYY6Cu6-_jSloLCmJCwTwyOH9QITcSzffTAdIvB1NOP2mQ7o-ysHOqIYcic-6UtY-D6Em-PgkPrGyA6zag7hkjGVb6ofRnR07eUunqAhyy0Q15vwAB-GLEaQ6gkZHYkmOKoT5WoclmzhK69lQdADb4KjAbQVuq4kQ54KSFvX1HDm0wZw8AOCrA6YCmdqj_yw11cvIKs8USKvKe2CIPwhnHhrJzQdddfo1xACufAFhfZ4uq5ovuHrTbDgdr8xFdKImDI7WshREI3JMO6SbxJN-XMyFDwlUhluzkFzon1v4&#xD;&#xA;Host: localhost:60156&#xD;&#xA;Referer: http://localhost:60156/tr/home/search?CategoryID=7&amp;ListingTypeID=1&amp;Location=&amp;PriceFrom=&amp;PriceTo=&amp;SearchText=&amp;SortView=Grid&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="ApplicationCookie" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="burakrmazan@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="burakrmazan@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="burakrmazan@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/home/search" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\burak\Documents\GitHub\beyourmarket\src\BeYourMarket.Web\home\search" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="CategoryID=6&amp;Location=&amp;PriceFrom=&amp;PriceTo=&amp;SearchText=&amp;SortView=Grid" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="25708" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/home/search" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="60156" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/home/search" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate, sdch, br" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="tr-TR,tr;q=0.8,en-US;q=0.6,en;q=0.4" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="PHPSESSID=t69g2so10bp4e4dbaod6i1okc3; __RequestVerificationToken=0MLfGt6e_tXGZHryvFUHjIgLzN_9NHrb_tAyRAbJrAeMM1I2LMgHrWRwgflfzrR7Wqs7DcRRIbgtTarv0hHOXscYKKHyUcLlNKoqemTZLI01; .AspNet.ApplicationCookie=EdZ3rwvpOr1aVl4OE6r7JhO0LqRsnZZzCn53VIACWb9saDp1ahojpAteZI6p3LGjpw0g196JTD3JUCVrrB8rw4GpJTwYuL4oT8wTj644PdO1Ofr7Oi3x4pKkpB2j2mofInwTP3sVWgu2fyoArefL0zfgA9POLQr9MhoHOFB2DkmyFv8Zrvx5ZDSNv6BtIQndlLfxl8GY3Agg_CGMhQhkvD9o-YrUOufiLbti8iH0N-EmUCAgpD3Kk1coz6o4jmFSB9jYY6Cu6-_jSloLCmJCwTwyOH9QITcSzffTAdIvB1NOP2mQ7o-ysHOqIYcic-6UtY-D6Em-PgkPrGyA6zag7hkjGVb6ofRnR07eUunqAhyy0Q15vwAB-GLEaQ6gkZHYkmOKoT5WoclmzhK69lQdADb4KjAbQVuq4kQ54KSFvX1HDm0wZw8AOCrA6YCmdqj_yw11cvIKs8USKvKe2CIPwhnHhrJzQdddfo1xACufAFhfZ4uq5ovuHrTbDgdr8xFdKImDI7WshREI3JMO6SbxJN-XMyFDwlUhluzkFzon1v4" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:60156" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:60156/tr/home/search?CategoryID=7&amp;ListingTypeID=1&amp;Location=&amp;PriceFrom=&amp;PriceTo=&amp;SearchText=&amp;SortView=Grid" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="CategoryID">
+      <value string="6" />
+    </item>
+    <item name="Location">
+      <value string="" />
+    </item>
+    <item name="PriceFrom">
+      <value string="" />
+    </item>
+    <item name="PriceTo">
+      <value string="" />
+    </item>
+    <item name="SearchText">
+      <value string="" />
+    </item>
+    <item name="SortView">
+      <value string="Grid" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="PHPSESSID">
+      <value string="t69g2so10bp4e4dbaod6i1okc3" />
+    </item>
+    <item name="__RequestVerificationToken">
+      <value string="0MLfGt6e_tXGZHryvFUHjIgLzN_9NHrb_tAyRAbJrAeMM1I2LMgHrWRwgflfzrR7Wqs7DcRRIbgtTarv0hHOXscYKKHyUcLlNKoqemTZLI01" />
+    </item>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="EdZ3rwvpOr1aVl4OE6r7JhO0LqRsnZZzCn53VIACWb9saDp1ahojpAteZI6p3LGjpw0g196JTD3JUCVrrB8rw4GpJTwYuL4oT8wTj644PdO1Ofr7Oi3x4pKkpB2j2mofInwTP3sVWgu2fyoArefL0zfgA9POLQr9MhoHOFB2DkmyFv8Zrvx5ZDSNv6BtIQndlLfxl8GY3Agg_CGMhQhkvD9o-YrUOufiLbti8iH0N-EmUCAgpD3Kk1coz6o4jmFSB9jYY6Cu6-_jSloLCmJCwTwyOH9QITcSzffTAdIvB1NOP2mQ7o-ysHOqIYcic-6UtY-D6Em-PgkPrGyA6zag7hkjGVb6ofRnR07eUunqAhyy0Q15vwAB-GLEaQ6gkZHYkmOKoT5WoclmzhK69lQdADb4KjAbQVuq4kQ54KSFvX1HDm0wZw8AOCrA6YCmdqj_yw11cvIKs8USKvKe2CIPwhnHhrJzQdddfo1xACufAFhfZ4uq5ovuHrTbDgdr8xFdKImDI7WshREI3JMO6SbxJN-XMyFDwlUhluzkFzon1v4" />
+    </item>
+  </cookies>
+</error>
